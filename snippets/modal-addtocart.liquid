@@ -40,7 +40,7 @@
             </div>
           </div>
           {% endif %}
-          <a href="/checkout" class="btn-link{% if settings.terms_cond_checkbox_show %} disabled{% endif %}">{{ 'cart.popup_product_added.go_to_checkout' | t }}</a>
+          <a onclick="window.stkblCheckout()" style="color: white;" class="btn{% if settings.terms_cond_checkbox_show %} disabled{% endif %}">{{ 'cart.popup_product_added.go_to_checkout' | t }}</a>
           <div class="giraffly-trust-badge" ></div>
         </div>
         <div class="tt-modal-addtocart desctope">
@@ -81,7 +81,7 @@
                 </label>
               </div>
               {% endif %}
-              <a href="/checkout" class="btn{% if settings.terms_cond_checkbox_show %} disabled{% endif %} ttmodalbtn">{{ 'cart.popup_product_added.go_to_checkout' | t }}</a>
+              <a onclick="window.stkblCheckout()" style="color: white;" class="btn{% if settings.terms_cond_checkbox_show %} disabled{% endif %} ttmodalbtn">{{ 'cart.popup_product_added.go_to_checkout' | t }}</a>
                <div class="giraffly-trust-badge" ></div>
             </div>
           </div>

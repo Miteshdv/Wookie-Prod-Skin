@@ -462,7 +462,7 @@
      "shopify_domain": "foodfolks.myshopify.com",
      "fb_page_id": "",
      "locale": "en_US",
-     "app_id": 369783430202516,
+     "app_id": 171395366860225,
      "use_stm_callback": "",
      "user_ref": 'ba_52277149889_' + Math.random().toString(36).substring(5) + '_' + Math.floor(Math.random() * (9999999 - 1000000)),
      "atc_preference": "push",
@@ -692,11 +692,8 @@
   }
 
 documentReady(function() {
-  var baFbPresent      = (document.getElementsByTagName('head')[0].innerHTML.search("ba_fb_" + window.baMsg.remote_id) > 0);
+  var baFbPresent = (document.getElementsByTagName('head')[0].innerHTML.search("ba_fb_" + window.baMsg.remote_id) > 0);
   if (!baFbPresent){return;}
-  var bisScriptPresent = (document.getElementsByTagName('head')[0].innerHTML.search("bis_" + window.baMsg.remote_id) > 0);
-  window.baMsg.ba_fb_script_present = baFbPresent;
-  window.baMsg.bis_script_present = bisScriptPresent;
 
   window.baMsg.visitor_token = window.baMet.getVisitorToken();
   window.baMsg.session_token = window.baMet.getVisitToken();
@@ -887,7 +884,7 @@ documentReady(function() {
      const rawData = window.atob(base64);
      const outputArray = new Uint8Array(rawData.length);
 
-     for (var i = 0; i < rawData.length; ++i) {
+     for (let i = 0; i < rawData.length; ++i) {
        outputArray[i] = rawData.charCodeAt(i);
      }
      return outputArray;

@@ -31876,7 +31876,7 @@ li[data-availability=false] a{
   overflow: hidden;
 }
 .tt-options-swatch:not(.options-large):not(.options-middle) li[data-availability="false"] span:not(.options-color-image){
-  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/6/assets/cross_20.png?v=964847316518245597) 0 0 no-repeat;
+  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/9/assets/cross_20.png?v=964847316518245597) 0 0 no-repeat;
   width:20px;
   height:20px;
 }
@@ -31894,7 +31894,7 @@ li[data-availability=false] a{
   background-size: cover;
 }
 .tt-options-swatch:not(.options-large):not(.options-middle) li[data-availability="false"] span.options-color-image{
-  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/6/assets/cross_40.png?v=9290560576675058047) 0 0 no-repeat;
+  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/9/assets/cross_40.png?v=9290560576675058047) 0 0 no-repeat;
   width:40px;
   height:40px;
 }
@@ -31916,12 +31916,12 @@ li[data-availability=false] a{
 }
 /*tt-options-swatch - product single*/
 .tt-options-swatch.options-large li[data-availability="false"] span:not(.options-color-image){
-  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/6/assets/cross_30.png?v=5578382638295545896) 0 0 no-repeat;
+  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/9/assets/cross_30.png?v=5578382638295545896) 0 0 no-repeat;
   width:30px;
   height:30px;
 }
 .tt-options-swatch.options-large li[data-availability="false"] span.options-color-image{
-  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/6/assets/cross_60.png?v=15427321456533016239) 0 0 no-repeat;
+  background: url(//cdn.shopify.com/s/files/1/0522/7714/9889/t/9/assets/cross_60.png?v=15427321456533016239) 0 0 no-repeat;
   width:60px;
   height:60px;
 }
@@ -32975,7 +32975,7 @@ mark{
 /* Modal newsletter */
 #Modalnewsletter .tt-background {
   
-  background: #ffffff url("//cdn.shopify.com/s/files/1/0522/7714/9889/t/6/assets/popup_newsletter_image.png?5209") 0 0 no-repeat;
+  background: #ffffff url("//cdn.shopify.com/s/files/1/0522/7714/9889/t/9/assets/popup_newsletter_image.png?5165") 0 0 no-repeat;
   
   background-size: 50% auto;
 }
