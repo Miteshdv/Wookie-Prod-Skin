@@ -78,7 +78,7 @@
               {% endif %}
               <div class="tt-cart-btn">
                 <div class="tt-item">
-                  <a href="/checkout" class="btn{% if settings.terms_cond_checkbox_show %} disabled{% endif %}">{{ 'cart.header.checkout' | t }}</a>
+                  <a onclick="window.stkblCheckout()" class="btn{% if settings.terms_cond_checkbox_show %} disabled{% endif %}">{{ 'cart.header.checkout' | t }}</a>
                   <div class="giraffly-trust-badge" ></div>
                 </div>
                 <div class="tt-item">
